@@ -65,7 +65,7 @@ export const Actions = ({
           onClick={() => onOpen(id, title)}
         >
           <Pencil className="size-4 mr-2" />
-          ChangeName
+          Change name
         </DropdownMenuItem>
         <ConfirmModal
           header="Delete board?"
