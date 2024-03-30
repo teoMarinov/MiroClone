@@ -12,7 +12,7 @@ import { Hint } from "@/components/hint";
 export const NewButton = () => {
   return (
     <Dialog>
-      <DialogTrigger>
+      <DialogTrigger asChild>
         <div className="aspect-square">
           <Hint
             label="Create organization"
